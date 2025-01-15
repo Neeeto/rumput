@@ -263,7 +263,7 @@ async def main():
     mode = "extension" if mode_choice == "1" else "desktop"
     print(f"{Fore.GREEN}Selected mode: {mode}{Style.RESET_ALL}")
     
-    _user_id = "ebd20356-6a5a-466d-93e6-ae7d347abfc7"('Please Enter your user ID: ')
+    _user_id = 'ebd20356-6a5a-466d-93e6-ae7d347abfc7'('Please Enter your user ID: ')
     
     with open('proxy_list.txt', 'r') as file:
         local_proxies = file.read().splitlines()
